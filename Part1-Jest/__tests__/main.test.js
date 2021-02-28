@@ -1,4 +1,5 @@
 const formatVolumeIconPath = require('../assets/scripts/main');
+
 describe('Test volume icon path', ()=>{
     test('Volume > 66', ()=>{
         expect(formatVolumeIconPath(100)).toMatch('./assets/media/icons/volume-level-3.svg')
